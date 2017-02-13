@@ -26,7 +26,7 @@ switch (mesDelAño)
 	case "Noviembre":
 	case "Diciembre":
 	{
-		alert ("Este mes tiene más de 30 días");
+		alert ("Este mes tiene 30 o más días");
 		break;
 	}
 }	
