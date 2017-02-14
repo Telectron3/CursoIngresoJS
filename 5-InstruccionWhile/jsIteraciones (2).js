@@ -5,9 +5,10 @@ function Mostrar()
 var Numero = 10;
 var Numero = parseInt(Numero);
 
-while(Numero > 1)
+while(Numero > 0)
 	{
-		Numero = Numero - 1;
+		
 		alert (Numero);
+		Numero = Numero - 1;
 	}	
 }//FIN DE LA FUNCIÓN
