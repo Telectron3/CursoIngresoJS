@@ -15,10 +15,8 @@ function CalcularPrecio ()
  	var PrecioDescuento = parseFloat(document.getElementById("precioDescuento").value);
   	var Lamparas = 35;
   	var Lamparas = parseFloat(Lamparas);
-  	var Aumento;
   	var Aumento = parseFloat(Aumento);
   	var PrecioTotal = parseFloat(PrecioTotal);
-    var Descuento;
   	var Descuento = parseFloat(Descuento);
   	
   if (PrecioDescuento > 120 && CantLamparas >= 6)
@@ -42,7 +40,7 @@ function CalcularPrecio ()
   		} 
 
     else if (PrecioDescuento > 120 && CantLamparas == 5)
-
+    {
       switch(Marca)
       {
         case "ArgentinaLuz":
@@ -68,7 +66,7 @@ function CalcularPrecio ()
           }
 
       }  
-        
+     }   
  
   	else if (CantLamparas == 5)
   	
@@ -152,7 +150,7 @@ function CalcularPrecio ()
  		   }
   	}
 
-    else if (PrecioDescuento > 120 && CantLamparas === 3) 
+    else if (PrecioDescuento > 120 && CantLamparas == 3) 
 
     {
       switch(Marca)
