@@ -6,9 +6,10 @@ function Mostrar()
 	var numero;
 	while (contador < 5)
 	{
-		contador = contador + 1;
-		acumulador = prompt("Ingrese los numeros que desea que se sumen");
-		acumulador = acumulador + acumulador;
+		contador ++;
+		numero = prompt("Ingrese numeros");
+		numero = parseInt(numero);
+		acumulador += numero; 
 	}
 
 

@@ -3,13 +3,17 @@ function Mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var respuesta='si';
-	
-	while (respuesta != "si")
+	var respuesta = true;
+	var num;
+	while (respuesta == true)
 	{	
-		respuesta = prompt ("Ingrese su respuesa");
+		
 		contador = contador + 1;
-		acumulador = prompt ("Ingrese la cantidad de numero que usted quiera, cuando no quiera continuar coloque no ");
+		num = prompt("Ingrese numeros");
+		num = parseInt(num);
+		respuesta = confirm("Desea seguir agregando numeros");
+		acumulador += num;
+
 	}
 
 document.getElementById('suma').value=acumulador;
