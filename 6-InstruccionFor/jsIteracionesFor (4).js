@@ -1,6 +1,14 @@
 function Mostrar()
 {
 
+	for (var i = 0 ; ; i ++ ) 
+		{
+				if (i == 20)
+					{
+						console.log ("Break");
+						break;
+					}
+		}
 
 
 
